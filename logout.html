@@ -1,0 +1,21 @@
+<html>
+<body bgcolor="lightgreen" text="blue">
+<br/><br/>
+<pre>
+<h3><center>Thank you for visit! Bye....</center></h3>
+<br/><br/><br/><br/>
+
+
+
+
+
+	<img src="svcetheader.jpg" height="100" width="80%"></center>
+</body></pre>
+</html>
+<?php
+session_start();
+unset($_SESSION["id"]);
+session_destroy();
+header("location:loginform.html");
+
+?>

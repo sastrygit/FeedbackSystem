@@ -1,0 +1,103 @@
+<head>
+<title>Student details</title>
+
+</head>
+<body bgcolor="CYAN">
+<body fgcolor="BLUE">
+<form name="f1" method="POST" action="http://localhost/Feedbacksystem/register.php">
+<center> <h2><i><u>REGISTRATION FORM</u></i></h2></center>
+
+<fieldset>
+                <label><b> Student Creation Form<b></label>
+		
+				<table  border=0 cellspacing=0 cellpadding=0 bordercolor="">
+				<tr><br></tr>
+				<tr>
+					<td>STUDENT NAME</td>
+					<td><input type="text" name="sname"></td>
+				</tr>
+				<tr>
+					<td>STUDENT ID</td>
+					<td><input type="text" name="sid"></td>
+				</tr>
+				<tr>
+					<td>PASSWORD</td>
+					<td><input type="password" name="spwd"></td>
+				</tr>
+				<tr>
+					<td>CONFIRM PASSWORD</td>
+					<td><input type="text" name="scpwd"></td>
+				</tr>
+				<tr>
+					<td>FATHER NAME</td>
+					<td><input type="text" name="sfn"></td>
+				</tr>
+				<tr>
+					<td>MOTHER NAME</td>
+					<td><input type="text" name="smn"></td></tr>
+				<tr>
+					<td>GENDER</td>
+					<td><input type="radio" name="sex" value="Male" checked>Male<input type="radio" name="sex" value="female">Female</td>
+					</tr>
+				<tr>
+					<td >DATE OF BIRTH:</td>
+					<td ><input type="date" name="dob"></tr>
+				<tr>
+					<td>EMAIL ID</td>
+					<td><input type="text" name="t4"></td></tr><tr>
+					
+                                 		<tr>
+					<td>COURSE&nbsp;&nbsp;&nbsp; </td>
+					<td width="50%" height="25">
+						<select size="1" name="course" style="border-style: double; border-color: #000000">
+							<option selected value="select">Select</option>
+							<option value="B.TECH">B.TECH</option>
+                                                         				<option value="M.TECH">M.TECH</option>
+                                                         				<option value="MBA">MBA</option>
+                                                         				</select></td>
+					</tr>
+                                        		 <tr>
+					<td>BRANCH&nbsp;&nbsp;&nbsp; </td>
+					<td width="50%" height="25">
+						<select size="1" name="branch" style="border-style: double; border-color: #000000">
+							<option selected value="select">Select</option>
+							<option value="CSE">CSE</option>
+                                                         				<option value="ECE">ECE</option>
+                                                        				 <option value="EEE">EEE</option>
+                                                         				 <option value="MECHANICAL">MECHANICAL</option>
+                                                          				 <option value="CIVIL">CIVIL</option>
+                                                         				</select></td>
+					</tr>
+				<tr>
+					<td>YEAR&nbsp;&nbsp;&nbsp; </td>
+					<td width="50%" height="25">
+						<select size="1" name="t7" style="border-style: double; border-color: #000000">
+							<option selected value="select">Select</option>
+							<option value="FIRST">1</option>
+                                                         				<option value="SECOND">2</option>
+                                                    				<option value="THIRD">3</option>
+                                                          				<option value="FINAL">4</option>
+							</select></td>
+					</tr>
+					
+				<tr>
+					<td>CITY NAME</td>
+					<td><input type="text" name="city"></td></tr>
+				<tr>
+					<td>ADDRESS</td>
+					<td><textarea name="adrs"></textarea></td></tr>
+				<tr>
+					<td>MOBILE NO</td>
+					<td><input type="num" name="mobile"></td></tr>
+				<tr>	</tr>
+				<tr>
+					<td><input type="submit" value="SUBMIT" onclick="return Check()"></td>
+					<td><input type="reset" value="CANCEL"></td></tr>
+				 </table>
+<tr height="30">
+<td><input type="button" name="Back" value="Back" onClick="history.go(-1)"></td>
+</tr>
+
+ </fieldset>
+</body>
+</html>
